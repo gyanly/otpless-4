@@ -18,6 +18,11 @@
        var waName = otplessUser.waName;
        var waNumber = otplessUser.waNumber;
        // Signup/signin the user and redirect to next page
+    //    window.location.replace("home.html");
+    document.getElementById('otpless').innerHTML = `
+        <h2>Hi ${waName} Welcome You have logedin </h2>
+        <p>You Number is : ${waNumber}</p>
+    `;
       }
     </script> 
 </body>
